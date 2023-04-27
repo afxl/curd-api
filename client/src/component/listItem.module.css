@@ -1,0 +1,42 @@
+.master {
+    background-color: #9fd3c7;
+    color: #142d47;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 10px;
+    z-index:1;
+    position: relative;
+}
+
+.master div {
+    width: 25%;
+    padding: 10px;
+}
+.overlay{
+    position: absolute;
+    top:0%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    padding:4px 0;
+    border-radius: 10px;
+    background-color: #142d473e;
+}
+.parent{
+    position: relative;
+    width: 90vw;
+    margin: auto;
+}
+.edit{
+    background-color: greenyellow;
+}
+.hide{
+    display: none;
+}
+.delete{
+    background-color: red;
+}

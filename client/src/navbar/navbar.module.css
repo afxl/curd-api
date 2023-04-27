@@ -1,0 +1,20 @@
+ul{
+    list-style-type: none;
+    padding: 6px 10px;
+    margin: 0;   
+    display: flex;
+    background-color: #385170;
+}
+a{
+    color: #ececec;
+    text-decoration: none;
+}
+a:hover{
+    color: #9fd3c7;
+}
+a:focus{
+    color: #66a496;
+}
+p{
+    margin: 6px;
+}
